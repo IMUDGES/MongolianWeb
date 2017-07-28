@@ -5,12 +5,18 @@
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" type="text/css" href="css/web_style.css">
+	<link rel="stylesheet" type="text/css" href="css/navBar.css">
+	<link rel="stylesheet" type="text/css" href="css/navBarF.css">
+	<link rel="stylesheet" type="text/css" href="css/imgRotate.css">
+	<link rel="stylesheet" type="text/css" href="css/product.css">
+	<link rel="stylesheet" type="text/css" href="css/bottomNav.css">
+	<link rel="stylesheet" type="text/css" href="css/selfAdaption.css">
 	<script src="js/web_js.js"></script>
 	
 </head>
 <body>
-<div style="width: 100%;height:auto;">
-	<img src="img/logo.png" style="width: 80%;height:auto;margin-left: 10%;"/>
+<div class="logo">
+	<img src="img/logo.png" class="logoImg" />
 </div>
 
 	<!-- <div style="background-image: url(img/10.jpg); background-size: 100% 100%;  width: 100%; height: 400px;">
@@ -42,7 +48,29 @@
 		</ul>
 	</div>
 </div>
-<div style="width: 100px; height: 100px; background-color: #00bfff; margin: 0 auto; border-radius: 100%; position: relative; top: -60px; z-index: -1;" ></div>
+<div class="navBar_circle"></div>
+
+<div class="navBarF" >
+	<div class="fontFamily navBarF_font floatl" >
+		<ul>
+			<li>主页</li>
+			<li>实验室简介</li>
+			<li>研究队伍</li>
+		</ul>
+	</div>
+	<div class="fontFamily navBarF_font floatr">
+		<ul>
+			<li>工作动态</li>
+			<li>成果介绍</li>
+			<li>联系我们</li>
+		</ul>
+	</div>
+	<div class="navBarF_whiteArea" >
+	<div class="navBarF_imgCrile" align="center">
+		<img src="img/7k.png" class="navBarF_img" >
+	</div>
+	</div>
+</div>
 <!-- <div style="width: 1200px; margin: 0 auto;" >
 	<div style="width: 100%;height: 180px;border: 1px solid darkgray;margin:40px 0 ;box-shadow: 10px 10px 5px #888888;">
 		<div style="background-image: url(img/6k.jpg);width: 30%;height: 180px;background-size: 100% 100%;float: left;">     </div>
@@ -57,14 +85,14 @@
 		</div>
 	</div>
 </div> -->
-<div style="width:1200px; margin: 0 auto; height: 400px;position: relative; " >
+<div class="imgRotate_news" >
 	<div class="wrap" id='wrap'>
 		<ul id="pic">
-			<li><img src="img/10.jpg" alt="" style="width: 100%;height: 380px;"></li>
-			<li><img src="img/1k.jpg" alt="" style="width: 100%;height: 380px;"></li>
-			<li><img src="img/2k.jpg" alt="" style="width: 100%;height: 380px;"></li>
-			<li><img src="img/3k.jpg" alt="" style="width: 100%;height: 380px;"></li>
-			<li><img src="img/4k.jpg" alt="" style="width: 100%;height: 380px;"></li>
+			<li><img src="img/10.jpg" alt="" class="imgRotate" ></li>
+			<li><img src="img/1k.jpg" alt="" class="imgRotate" ></li>
+			<li><img src="img/2k.jpg" alt="" class="imgRotate" ></li>
+			<li><img src="img/3k.jpg" alt="" class="imgRotate" ></li>
+			<li><img src="img/4k.jpg" alt="" class="imgRotate" ></li>
 		</ul>
 		<ol id="list">
 			<li class="on">1</li>
@@ -74,12 +102,12 @@
 			<li>5</li>
 		</ol>
 	</div>
-	<div style="width: 30%; float: right; height: 380px; border: 3px solid #DCDCDC; border-radius: 4px;" >
-		<div style="  width: 100%; height: 40px; border-bottom: 2px solid #DCDCDC; color: #00bfff;" >
-			<p class="fontFamily" style="margin: 6px; font-size: 26px;">最新新闻</p>
-			<p style="float: right;position: relative; top: -16px;" >MORE>></p>
+	<div class="news" >
+		<div class="news_title">
+			<p class="fontFamily news_title_font">实验室动态</p>
+			<p class="news_title_more">MORE>></p>
 		</div>
-		<ul style="line-height: 26px; margin: 5px;" >
+		<ul class="news_textPart">
 			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
 			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
 			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
@@ -91,7 +119,6 @@
 			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
 			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
 		</ul>
-
 	</div>
 	<!-- <div style="width: 430px;height: 380px;position: absolute;left: 820px;"> 
 		<div style="background-image: url(img/14.png);width: 88%;height: 50px;text-align: center;line-height: 50px;color: #043b8e;font-family: 黑体;font-size: 18px;border: 1px solid darkgray;">内蒙古自治区蒙古文信息处理技术重点实验室</div> 
@@ -102,8 +129,8 @@
 		</div>
 	</div> -->
 </div>   
-<div style="width: 1200px; height: 160px; margin: 0 auto; position: relative;" >
-	<img src="img/9k.jpg" style="height:140px; float: left;"/>
+<div class="product_title reposition"  >
+	<img src="img/9k.jpg" class="product_title_img floatl"/>
 	<!-- <div id="catalogue" style="float: right; width: 600px; height: 140px;   display: none; line-height: 20px; opacity: 0; " >
 		<p>蒙古文古籍图像检索系统 &nbsp;&nbsp;奥云词典</p>   
 		<p>中标普华蒙古文office &nbsp;&nbsp;&nbsp;中标麒麟蒙古文操作系统</p>
@@ -114,62 +141,45 @@
 		<p>蒙古文编码转换系&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 面向手机的以蒙古文为主的多语种电子辞典软件</p>		   
 	</div> -->
 </div>
-<div  style=" width: 1200px;  margin: 0 auto;  height: 260px; position: relative; " >
-	<div style="width: 600px;height: 240px; float: left;" >
-		<div style=" float:left; width: 280px; height: 120px; background-color:#c2bab8;  " >
-			<img src="img/img2.jpg" style="width: 100%; height: 100%;">
+<div  class="product" >
+	<div class="product_text1 floatl">
+		<div class="product_text1_img floatl">
+			<img src="img/img2.jpg">
 		</div>
-		<div style="float:left; width: 260px;height: 80px;margin: 0 30px;" >
-			<p style="color: #0c019c;font-weight: 900;font-size: 20px; font-family: 黑体;"  >奥云蒙古文整词输入法</p>
-			<p style="color: #c2bab8;font-size: 14px; font-family: 黑体;">实验室开发了符合蒙古文国家标准编码的蒙古文整词输入法(奥云蒙古文输入法)，用户可以免费下载使用。输入法支持WindowsXp、Win7、Win8、Win10等多种操作系统……</p>
-			<p style="font-size: 12px; float: right;">产品链接：<a>http://oyun.mglip.com&nbsp;</a></p>
-
+		<div class="product_text1_content floatl " >
+			<p class="fontFamily product_text1_title" >奥云蒙古文整词输入法</p>
+			<p class="fontFamily product_text1_introduce">实验室开发了符合蒙古文国家标准编码的蒙古文整词输入法(奥云蒙古文输入法)，用户可以免费下载使用。输入法支持WindowsXp、Win7、Win8、Win10等多种操作系统……</p>
+			<p class="product_text1_herf floatr">产品链接：<a>http://oyun.mglip.com&nbsp;</a></p>
 		</div>
-		<div style="top: 130px;height: 36px;width: 550px;background-color: #f3f1f2;position:relative; ">
-			<ul style="position: absolute;left: 30px;color: #0c019c;line-height: 36px; " >
-				<li>
-					<p class="fontFamily " style="float: left;  display: block;font-weight: 900;font-size: 18px;	color: #c2bab8;">蒙古语语音合成系统</p>
-					<p style="float: right; display: block; margin-left: 120px; margin-top: 10px; font-size: 14px;" >产品链接：http://mtts.mglip.com</p>
-				</li>
-			</ul>
+		<div class="product_title1 floatl"  >
+			<p class="product_title1_title fontFamily">蒙古语语音合成系统</p>
+			<p class="product_title1-href floatr">产品链接：http://mtts.mglip.com</p>
 		</div>
-		<div class="reposition" style="top: 150px;height: 36px;width: 550px;background-color: #f3f1f2;">
-			<ul class="abposition" style="left: 30px;color: #0c019c;line-height: 36px;" >
-				<li>
-					<p class="fontFamily reposition " style="float: left; display: block;font-weight: 900;font-size: 18px;color: #c2bab8;">印刷体蒙古文字识别系统</p>
-					<p style="float: right; display: block; margin-left: 80px; margin-top: 10px; font-size: 14px;" >产品链接：http://ocr.mglip.com</p>
-				</li>
-			</ul>
+		<div class="product_title1 floatl"">
+			<p class="product_title1_title fontFamily" >印刷体蒙古文字识别系统</p>
+			<p class="product_title1-href floatr" >产品链接：http://ocr.mglip.com</p>
 		</div>
 	</div>
-	<div class=" floatl" style="width: 600px;height: 240px;">
-		<div class="floatl" style=" width: 280px; height: 120px; background-color:#c2bab8;  " >
-			<img src="img/img2.gif" style="width: 100%; height: 100%;">
+	<div class=" floatl product_text1">
+		<div class="floatl product_text1_img" >
+			<img src="img/img2.gif" >
 		</div>
-		<div class="floatl" style="width: 260px;height: 80px;margin: 0 30px;" >
-			<p class=" fontFamily" style="color: #0c019c;font-weight: 900;font-size: 20px;" >蒙古语语音识别系统</p>
-			<p class="fontFamily" style="color: #c2bab8;font-size: 14px;">蒙古语语音识别就是让机器通过识别和理解过程把蒙古语语音信号转变为相应的蒙古文文本。实验室通过十几年的努力，开发了国内首款蒙古语大词汇量连续语音识别……</p>
-			<p style="font-size: 12px; float: right;" >正在内测，敬请期待！</p>
+		<div class="product_text1_content floatl " >
+			<p class="fontFamily product_text1_title" >蒙古语语音识别系统</p>
+			<p class="fontFamily product_text1_introduce">蒙古语语音识别就是让机器通过识别和理解过程把蒙古语语音信号转变为相应的蒙古文文本。实验室通过十几年的努力，开发了国内首款蒙古语大词汇量连续语音……</p>
+			<p class="product_text1_herf floatr">产品链接：<a>http://oyun.mglip.com&nbsp;</a></p>
 		</div>
-		<div class=" reposition" style="top: 130px;height: 36px;width: 550px;background-color: #f3f1f2;">
-			<ul class="abposition  " style="left: 30px;color: #0c019c;line-height: 36px;" >
-				<li>
-					<p class="fontFamily reposition " style="float: left;  display: block;font-weight: 900;font-size: 18px;color: #c2bab8;">蒙古文编码转换系统</p>
-					<p style="float: right; display: block; margin-left: 80px; margin-top: 10px; font-size: 14px;" >产品地址：http://mtg.mglip.com</p>
-				</li>
-			</ul>
+		<div class="product_title1 floatl" >
+			<p class="product_title1_title fontFamily">蒙古文编码转换系统</p>
+			<p class="product_title1-href floatr">产品地址：http://mtg.mglip.com</p>
 		</div>
-		<div class=" reposition" style="top: 150px;height: 36px;width: 550px;background-color: #f3f1f2;">
-			<ul class="abposition  " style="left: 30px;color: #0c019c;line-height: 36px;" >
-				<li>
-					<p class="fontFamily reposition " style="float: left; display: block;font-weight: 900;	font-size: 18px;color: #c2bab8;">蒙古文翻译辅助平台</p>
-					<p style="float: right; display: block; margin-left: 80px; margin-top: 10px; font-size: 14px;" >产品地址：http://fyfz.mglip.com</p>
-				</li>
-			</ul>
+		<div class="product_title1 floatl">
+			<p class="product_title1_title fontFamily" >蒙古文翻译辅助平台 </p>
+			<p class="product_title1-href floatr" >产品地址：http://fyfz.mglip.com</p>
 		</div>
 	</div>
 	<a href="#" >
-		<p  style="color: #c2bab8;	font-size: 18px;float: right; display:block;font-size: 20px;font-weight: 900;">MORE>>></p>
+		<p class="product_more floatr">MORE>></p>
 	</a>
 </div>
 
@@ -289,24 +299,36 @@
 		</div>   
 	</div>
 </div> -->
-<div style="width: 100%;height: 160px; float: left; background-color:#00BFFF; ">
-	<div style="width: 1000px; margin: 0 auto; color:#ffffff; position: relative; top: 30px; font-family: 黑体; font-size: 16px;" >
+<div class="bottomNav floatl">
+	<div class="bottomNav_font fontFamily reposition" >
 		<p>联系方式：</p>
-		<p>Email：csfeilong@imu.edu.cn<span style="position: relative; left: 50px;">feilong571@163.com</span></p>
-		<p>QQ：519234209<span style="position: relative; left: 50px;">地址：内蒙古大学计算机学院</span></p>
-		<p style="float: right;" >©2016 内蒙古大学计算机学院 版权所有</p>
-		<div style="width: 280px; height: 40px; position: relative; top: 28px; margin: 0 auto;" >
-			<img src="img/备案图标.png" style="float: left; ">
+		<p>Email：csfeilong@imu.edu.cn<span class="bottomNav_fontPosition reposition">feilong571@163.com</span></p>
+		<p>QQ：519234209<span class="bottomNav_fontPosition reposition">地址：内蒙古大学计算机学院</span></p>
+		<p class="floatr" >©2016 内蒙古大学计算机学院 版权所有</p>
+		<div class="bottomNav_img reposition" >
+			<img src="img/备案图标.png" class="bottomNav_imgArea floatl">
 			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15010502000079">
-				<p style="  float: left;">蒙公网安备 15010502000079号</p></a>
-			</div>
+				<p class=" floatl">蒙公网安备 15010502000079号</p></a>
 		</div>
+	</div>
 		<!-- <div  style=" margin:20px 10%; margin-right: 20px;  float:left; width:300px; height: 200px;" >
 			<p style=" font-size: 20px;" >联系方式：</p>
 			<br>
 			<h4>Email：csfeilong@imu.edu.cn<br>&nbsp;&nbsp;&nbsp; feilong571@163.com<br>QQ：519234209<br>地址：内蒙古大学计算机学院</h4>
 		</div>    	
 		<div style="float:left; background-image:url(img/address.png); width: 50%;height: 160px;background-size: 100% 100%; "></div> -->
+</div>
+<div class="bottomNavF floatl">
+	<p>联系方式：</p>
+	<p>Email：csfeilong@imu.edu.cn</p>
+	<p style="text-indent: 56px;" >feilong571@163.com</p>
+	<p>QQ：519234209</p>
+	<p>地址：内蒙古大学计算机学院</p>
+	<p >©2016 内蒙古大学计算机学院 版权所有</p>
+	<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15010502000079">
+		<p style="">蒙公网安备 15010502000079号</p>
+	</a>
 	</div>
+</div>
 </body>
 </html>

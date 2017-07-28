@@ -1,0 +1,34 @@
+.bottomNav{
+	width: 100%;
+	height: 150px; 
+	background-color:#00BFFF;
+}
+
+.bottomNav_font{
+	width: 1000px; 
+	margin: 0 auto; 
+	color:#ffffff; 
+	top: 20px; 
+	font-size: 16px;
+}
+
+.bottomNav_fontPosition{
+	left: 50px;
+}
+
+.bottomNav_img{
+	width: 280px; 
+	height: 10px; 
+	top: 28px; 
+	margin: 0 auto;
+}
+
+.bottomNavF{
+	display: none; 
+	padding:10px; 
+	width:100%; 
+	height: 150px; 
+	background-color:#00BFFF; 
+	line-height: 20px;
+	color: #ffffff;
+}
