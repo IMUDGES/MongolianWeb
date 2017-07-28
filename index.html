@@ -3,15 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" type="text/css" href="css/web_style.css">
 	<script src="js/web_js.js"></script>
 	
 </head>
 <body>
-<div id="head" style="width: 100%;">
-	<div style="width: 100%;height: 80px;">
-		<img src="img/logo.png" style="width: 72%;height: 80px;margin-left: 14%;"/>
-	</div>
+<div style="width: 100%;height:auto;">
+	<img src="img/logo.png" style="width: 80%;height:auto;margin-left: 10%;"/>
+</div>
 
 	<!-- <div style="background-image: url(img/10.jpg); background-size: 100% 100%;  width: 100%; height: 400px;">
 		<div style=" background-image:url(img/13.png);background-size: 100% 100%;width: 200px;height: 50px; color: #ffffff; font-size:20px;position: absolute; margin-top: 20px; right: 0px;" >
@@ -27,15 +27,18 @@
 		    <a href="http://www.mglip.com/contact.htm" ><h3 style="text-align: center;line-height: 50px;">联系我们</h3></a>
 		</div>
 	</div> -->
-</div>
-<div style="width: 100%; height: 40px;padding: 10px 0; background-color: #00bfff; color: #ffffff; font-size: 20px; font-family: 黑体;" >
-	<div>
-		<ul style=" list-style-type: none; margin-left: 250px;" >
-			<li style="float: left; margin: 10px 50px;">主页</li>
-			<li style="float: left; margin: 10px 50px;">实验室简介</li>
-			<li style="float: left; margin: 10px 50px;"> <img src="img/7k.png" style="width: 70px; height: 70px;"></li>
-			<li style="float: left; margin: 10px 50px;">研究队伍</li>
-			<li style="float: left; margin: 10px 50px;">联系我们</li>
+<div class="fontFamily navBar" >
+	<div class="navBar_center">
+		<ul>
+			<li class="navBar_blockPosition navBar_firstBlock">主页</li>
+			<li class="navBar_blockPosition">实验室简介</li>
+			<li class="navBar_blockPosition">研究队伍</li>
+			<li class="navBar_blockPosition navBar_imgPosition" > 
+				<img src="img/7k.png" class="navBar_img">
+			</li>
+			<li class="navBar_blockPosition">工作动态</li>
+			<li class="navBar_blockPosition">成果介绍</li>
+			<li class="navBar_blockPosition navBar_lastBlock" >联系我们</li>
 		</ul>
 	</div>
 </div>
@@ -54,7 +57,7 @@
 		</div>
 	</div>
 </div> -->
-<div style="width:90%; margin: 0 auto; position: relative;" >
+<div style="width:1200px; margin: 0 auto; height: 400px;position: relative; " >
 	<div class="wrap" id='wrap'>
 		<ul id="pic">
 			<li><img src="img/10.jpg" alt="" style="width: 100%;height: 380px;"></li>
@@ -71,6 +74,25 @@
 			<li>5</li>
 		</ol>
 	</div>
+	<div style="width: 30%; float: right; height: 380px; border: 3px solid #DCDCDC; border-radius: 4px;" >
+		<div style="  width: 100%; height: 40px; border-bottom: 2px solid #DCDCDC; color: #00bfff;" >
+			<p class="fontFamily" style="margin: 6px; font-size: 26px;">最新新闻</p>
+			<p style="float: right;position: relative; top: -16px;" >MORE>></p>
+		</div>
+		<ul style="line-height: 26px; margin: 5px;" >
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+			<li><a href="#" >这是一个新闻,这是一个新新闻</a></li>
+		</ul>
+
+	</div>
 	<!-- <div style="width: 430px;height: 380px;position: absolute;left: 820px;"> 
 		<div style="background-image: url(img/14.png);width: 88%;height: 50px;text-align: center;line-height: 50px;color: #043b8e;font-family: 黑体;font-size: 18px;border: 1px solid darkgray;">内蒙古自治区蒙古文信息处理技术重点实验室</div> 
 			<div style="width: 88%;height: 306px;border: 1px solid darkgray;">
@@ -80,8 +102,8 @@
 		</div>
 	</div> -->
 </div>   
-<div style="width: 90%; margin: 0 auto;" >
-	<img onmouseover="appear()" onmouseout="disappear()" src="img/9k.jpg" style="height:140px ;"/>
+<div style="width: 1200px; height: 160px; margin: 0 auto; position: relative;" >
+	<img src="img/9k.jpg" style="height:140px; float: left;"/>
 	<!-- <div id="catalogue" style="float: right; width: 600px; height: 140px;   display: none; line-height: 20px; opacity: 0; " >
 		<p>蒙古文古籍图像检索系统 &nbsp;&nbsp;奥云词典</p>   
 		<p>中标普华蒙古文office &nbsp;&nbsp;&nbsp;中标麒麟蒙古文操作系统</p>
@@ -92,7 +114,7 @@
 		<p>蒙古文编码转换系&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 面向手机的以蒙古文为主的多语种电子辞典软件</p>		   
 	</div> -->
 </div>
-<div  style="position: relative; width: 1200px;  margin: 0 auto;  height: 260px; " >
+<div  style=" width: 1200px;  margin: 0 auto;  height: 260px; position: relative; " >
 	<div style="width: 600px;height: 240px; float: left;" >
 		<div style=" float:left; width: 280px; height: 120px; background-color:#c2bab8;  " >
 			<img src="img/img2.jpg" style="width: 100%; height: 100%;">
@@ -100,7 +122,8 @@
 		<div style="float:left; width: 260px;height: 80px;margin: 0 30px;" >
 			<p style="color: #0c019c;font-weight: 900;font-size: 20px; font-family: 黑体;"  >奥云蒙古文整词输入法</p>
 			<p style="color: #c2bab8;font-size: 14px; font-family: 黑体;">实验室开发了符合蒙古文国家标准编码的蒙古文整词输入法(奥云蒙古文输入法)，用户可以免费下载使用。输入法支持WindowsXp、Win7、Win8、Win10等多种操作系统……</p>
-			<p>产品链接：<a>http://oyun.mglip.com</a></p>
+			<p style="font-size: 12px; float: right;">产品链接：<a>http://oyun.mglip.com&nbsp;</a></p>
+
 		</div>
 		<div style="top: 130px;height: 36px;width: 550px;background-color: #f3f1f2;position:relative; ">
 			<ul style="position: absolute;left: 30px;color: #0c019c;line-height: 36px; " >
@@ -126,7 +149,7 @@
 		<div class="floatl" style="width: 260px;height: 80px;margin: 0 30px;" >
 			<p class=" fontFamily" style="color: #0c019c;font-weight: 900;font-size: 20px;" >蒙古语语音识别系统</p>
 			<p class="fontFamily" style="color: #c2bab8;font-size: 14px;">蒙古语语音识别就是让机器通过识别和理解过程把蒙古语语音信号转变为相应的蒙古文文本。实验室通过十几年的努力，开发了国内首款蒙古语大词汇量连续语音识别……</p>
-			<p>正在内测，敬请期待！</p>
+			<p style="font-size: 12px; float: right;" >正在内测，敬请期待！</p>
 		</div>
 		<div class=" reposition" style="top: 130px;height: 36px;width: 550px;background-color: #f3f1f2;">
 			<ul class="abposition  " style="left: 30px;color: #0c019c;line-height: 36px;" >

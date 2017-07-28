@@ -1,14 +1,3 @@
-window.onresize = function(){
-	var width=document.body.clientWidth;
-	var head = document.getElementById('head');
-	if(width<=1200){
-	    head.style.width = "1200px";
-	}
-	if(width>1200){
-		head.style.width = "100%";
-	}
-}
-
 window.onload=function(){
 	var wrap=document.getElementById('wrap'),
  	pic=document.getElementById('pic').getElementsByTagName('li'),
@@ -71,16 +60,16 @@ window.onload=function(){
 
 
 
-function appear(){
-	catalogue = document.getElementById('catalogue');
-	catalogue.style.display = 'block';
-	catalogue.style.animationName ="move";
-	catalogue.style.animationDuration =" 3s";
-}
+// function appear(){
+// 	catalogue = document.getElementById('catalogue');
+// 	catalogue.style.display = 'block';
+// 	catalogue.style.animationName ="move";
+// 	catalogue.style.animationDuration =" 3s";
+// }
 
-function disappear(){
-	catalogue = document.getElementById('catalogue');
-	catalogue.style.display = 'none';
-	catalogue.style.opacity = 0;
+// function disappear(){
+// 	catalogue = document.getElementById('catalogue');
+// 	catalogue.style.display = 'none';
+// 	catalogue.style.opacity = 0;
 	
-}
+// }
