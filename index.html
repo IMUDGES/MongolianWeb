@@ -4,6 +4,9 @@
 	<meta charset="utf-8">
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/web_style.css">
 	<link rel="stylesheet" type="text/css" href="css/navBar.css">
 	<link rel="stylesheet" type="text/css" href="css/navBarF.css">
@@ -50,7 +53,32 @@
 </div>
 <div class="navBar_circle"></div>
 
-<div class="navBarF" >
+<nav class="navBarF navbar navbar-default " role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <img src="img/7k.png" class="navBarF_img">
+        
+    </div>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="navBarF_list"><a style="color: #ffffff;" href="#">主页</a></li>
+            <li class="navBarF_list"><a style="color: #ffffff;" href="#">实验室简介</a></li>
+            <li class="navBarF_list"><a style="color: #ffffff;" href="#">研究队伍</a></li>
+            <li class="navBarF_list"><a style="color: #ffffff;" href="#">工作动态</a></li>
+            <li class="navBarF_list"><a style="color: #ffffff;" href="#">成果介绍</a></li>
+            <li class="navBarF_list"><a style="color: #ffffff;" href="#">联系我们</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<!-- <div class="navBarF" >
 	<div class="fontFamily navBarF_font floatl" >
 		<ul>
 			<li>主页</li>
@@ -70,7 +98,7 @@
 		<img src="img/7k.png" class="navBarF_img" >
 	</div>
 	</div>
-</div>
+</div> -->
 <!-- <div style="width: 1200px; margin: 0 auto;" >
 	<div style="width: 100%;height: 180px;border: 1px solid darkgray;margin:40px 0 ;box-shadow: 10px 10px 5px #888888;">
 		<div style="background-image: url(img/6k.jpg);width: 30%;height: 180px;background-size: 100% 100%;float: left;">     </div>
@@ -148,7 +176,7 @@
 		</div>
 		<div class="product_text1_content floatl " >
 			<p class="fontFamily product_text1_title" >奥云蒙古文整词输入法</p>
-			<p class="fontFamily product_text1_introduce">实验室开发了符合蒙古文国家标准编码的蒙古文整词输入法(奥云蒙古文输入法)，用户可以免费下载使用。输入法支持WindowsXp、Win7、Win8、Win10等多种操作系统……</p>
+			<p class="fontFamily product_text1_introduce">实验室开发了符合蒙古文国家标准编码的蒙古文整词输入法(奥云蒙古文输入法)，用户可以免费下载使用。有智能记忆、词库大、输入简便、字体全、皮肤美观等特点……</p>
 			<p class="product_text1_herf floatr">产品链接：<a>http://oyun.mglip.com&nbsp;</a></p>
 		</div>
 		<div class="product_title1 floatl"  >
@@ -203,12 +231,11 @@
 <div class="bottomNavF floatl">
 	<p>联系方式：</p>
 	<p>Email：csfeilong@imu.edu.cn</p>
-	<p style="text-indent: 56px;" >feilong571@163.com</p>
+	<p style="text-indent: 46px;" >feilong571@163.com</p>
 	<p>QQ：519234209</p>
 	<p>地址：内蒙古大学计算机学院</p>
-	<p >©2016 内蒙古大学计算机学院 版权所有</p>
-	<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15010502000079">
-				<p class=" floatl"><img src="img/备案图标.png">蒙公网安备 15010502000079号</p></a>
+	<p style="text-align:right;" >©2016 内蒙古大学计算机学院 版权所有</p>
+	<p ><img src="img/备案图标.png"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15010502000079">蒙公网安备 15010502000079号</a></p>
 	</div>
 </div>
 </body>

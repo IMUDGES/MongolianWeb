@@ -77,6 +77,11 @@
     width: 600px;
   }
 
+  .product_title_img{
+    margin: 0 2%;
+    margin-top: 10px;
+  }
+
   .product_text1{
     width: 100%
   }
@@ -119,6 +124,11 @@
     width: 100%;
   }
 
+  .product_title_img{
+    margin: 0 2%;
+    margin-top: 10px;
+  }
+
   .product_text1_content{
     margin-left:  20px;
     margin-right: 0;
@@ -152,11 +162,13 @@
   .wrap ul li{
   height:200px;
   }
-
-  .product_title_img{
-    width: 100%;
-  }
   
+  .product_title_img{
+    width: 96%;
+    margin: 0 2%;
+    margin-top: 10px;
+  }
+
   .product_text1{
     width: 96%;
     margin: 0 2%;

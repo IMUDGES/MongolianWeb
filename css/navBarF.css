@@ -1,4 +1,4 @@
-.navBarF{
+/*.navBarF{
 	width: 100%; 
 	height: 100px; 
 	background-color: #00bfff;
@@ -33,4 +33,19 @@
 	margin: 10px 0; 
 	width:60px; 
 	height: 60px;
+}*/
+
+.navBarF{
+	background-color: #00bfff; 
+	display: none;
+}
+
+.navBarF_img{
+	margin-left: 10px; 
+	width: 50px; 
+	height: 50px;
+}
+
+.navBarF_list{
+	border-bottom: 2px solid #ffffff;
 }

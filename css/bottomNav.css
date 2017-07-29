@@ -24,8 +24,9 @@
 }
 
 .bottomNavF{
+	text-align: center;
 	display: none; 
-	padding:10px 20px; 
+	padding:10px 0; 
 	width:100%; 
 	height: 150px; 
 	background-color:#00BFFF; 
