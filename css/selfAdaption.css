@@ -112,6 +112,9 @@
     height: 380px; 
   }
 
+  .imgRotate_news{
+    height: 600px;
+  }
   .product{
     width: 100%;
   }
@@ -122,8 +125,8 @@
   }
 
   .product_text1_img{
+    margin:10px 0;
     margin-left: 10px;
-    margin-bottom: 20px;
   }
 
   .product_title1{
@@ -136,16 +139,20 @@
     width: 480px; 
     line-height: 24px;
   }
-
-  .bottomNav_imgArea{
-    position: absolute;
-    top: 26px;
-    left: -20px;
-  }
+  
 }
 
 
 @media screen and (max-width: 480px){
+
+  .wrap{
+    height: 200px;
+  }
+  
+  .wrap ul li{
+  height:200px;
+  }
+
   .product_title_img{
     width: 100%;
   }

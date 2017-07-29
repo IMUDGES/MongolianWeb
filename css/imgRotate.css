@@ -75,9 +75,8 @@
 }
 
 .news_title_more{
-  float: right;
-  position: relative; 
-  top: -24px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .news_textPart{
