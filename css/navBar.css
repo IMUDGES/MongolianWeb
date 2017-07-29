@@ -4,9 +4,14 @@
 }
 
 .logoImg{
-  width: 80%;
-  height:auto;
-  margin-left: 10%;
+  width: 50%;
+  float: left;
+}
+
+.logo_img{
+  height: 90px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .navBar{
