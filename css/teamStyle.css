@@ -1,0 +1,57 @@
+.nameFont{
+	text-decoration: none;
+	font-family: 宋体;
+	font-size: 20px;
+}
+
+.team_img{
+	width:80%; 
+	height: auto;
+	margin: 0 auto;
+}
+
+.team_person{
+	font-size: 18px; 
+	width: 80%; 
+	margin: 0 auto;
+}
+
+.team_person_title{
+	background-image: url(img/14.png); 
+	background-size: 100% 100%;
+	width: 100%;height: auto ;
+	text-align: center;
+	line-height: auto ;
+	color:blueviolet;
+	font-family: 宋体;	
+	font-size: 28px;
+	border: 1px solid #000000;
+	text-decoration: none;
+}
+
+.team_person_content{
+	width: 100%;
+	height:auto;
+	border: 1px solid darkgray;
+	float: left;
+	text-align: justify; 
+	text-indent: 2em;
+	font-family: 宋体;
+	font-size: 20px;
+}
+
+.team_content{
+	width:80%; height:auto; 
+	margin: 0 auto; 
+	text-indent: 2em; 
+	font-size: 18px;
+	font-family:宋体;
+}
+
+.team_smallTitle{
+	font-size: 24px; font-weight: 800; text-indent: 0; 
+}
+
+p{
+	margin: 0;
+}

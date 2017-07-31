@@ -100,7 +100,14 @@
   .bottomNav_font{
     width: 768px; 
   }
+  
+  .second{
+    width: 98%;
+  }
 
+  .third{
+    width: 98%;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -111,6 +118,7 @@
 
   .logoImg{
     width: 80%;
+    height: 100%;
     margin-left: 10%;
   }
 
@@ -168,10 +176,31 @@
     top: 10px;
   }
   .bottomNav_font{
-    top: 0px;
+    top: 10px;
     width: 480px; 
     line-height: 24px;
   }
+  .team_img{
+  width:100%; 
+
+}
+
+.second{
+    width: 100%;
+  }
+
+  .third{
+    width: 100%;
+  }
+
+  .img21{
+  width: 100%;
+}
+
+.imgf{
+  width: 8%;
+  margin-left: 5%;
+}
 }
 
 
@@ -232,4 +261,8 @@
   .bottomNavF{
     display: block;
   }
+  .imgf{
+  width: 14%;
+  margin-left: 5%;
+}
 }
