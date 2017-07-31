@@ -163,13 +163,15 @@
     width: 96%;
     margin: 0 2% 20px;
   }
-
+  
+  .bottomNav_img{
+    top: 10px;
+  }
   .bottomNav_font{
     top: 0px;
     width: 480px; 
     line-height: 24px;
   }
-  
 }
 
 
