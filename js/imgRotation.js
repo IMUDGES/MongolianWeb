@@ -44,32 +44,4 @@ window.onload=function(){
  };
 
 
- function changeOpacity(i,j){
- 	var hi = document.getElementById(i);
- 	var hj = document.getElementById(j);
- 	hi.style.opacity = 0.1;
- 	hj.style.display = "block";
- }
-
- function recoverOpacity(i,j){
- 	var hi = document.getElementById(i);
- 	var hj = document.getElementById(j);
- 	hi.style.opacity = 1;
- 	hj.style.display = "none";
- }
-
-
-
-// function appear(){
-// 	catalogue = document.getElementById('catalogue');
-// 	catalogue.style.display = 'block';
-// 	catalogue.style.animationName ="move";
-// 	catalogue.style.animationDuration =" 3s";
-// }
-
-// function disappear(){
-// 	catalogue = document.getElementById('catalogue');
-// 	catalogue.style.display = 'none';
-// 	catalogue.style.opacity = 0;
-	
-// }
+ 
