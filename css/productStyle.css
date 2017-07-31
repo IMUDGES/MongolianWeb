@@ -37,6 +37,7 @@
 .productImg{
   top: -20px;
 }
+
 @media (max-width: 768px){
   .productImg{
     top: 0;
